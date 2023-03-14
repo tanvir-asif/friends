@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+p{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+#main{
+    margin: 30px;
+    padding: 25px;
+    border: 3px solid sandybrown;
+}
+/* img{
+    width: 200px;
+} */
+h3{
+    margin: 5px;
+    font-size: 16px;
+}
+h2{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.info{
+    margin: 20px;
+    margin-top: 0px;
+
+}
+#main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+
+
+@media screen and (max-width: 800px){
+    #main{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
